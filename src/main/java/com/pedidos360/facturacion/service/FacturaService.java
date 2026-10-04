@@ -4,6 +4,8 @@ package com.pedidos360.facturacion.service;
 import com.pedidos360.facturacion.dto.FacturaDTO;
 import com.pedidos360.facturacion.exception.RecursoNoEncontradoException;
 import com.pedidos360.facturacion.model.Factura;
+import com.pedidos360.facturacion.repository.FacturaRepository;
+
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
